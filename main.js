@@ -48,11 +48,86 @@ obj1 = {
     arr1,
 }
 
+
+// DOM
+
+// Arrow function
 // function
 let f1 = () => {
     console.log('Hello Function');
 }
 
 // Operator
-// == same value
-// === same value and type
+
+// Methamatical
+// +
+// -
+// *
+// **
+// /
+// %
+// ++
+// --
+
+// Assignment
+// =
+// +=
+// -=
+// *=
+// /=
+// %=
+// **=
+
+// Comparision
+// ==
+// ===
+// !=
+// !==
+// >
+// >=
+// <
+// <=
+
+// Remaining
+// ?
+
+
+// Logical
+// &&
+// ||
+// !
+
+// Remaining
+// Bitwise
+// & AND
+// | OR
+// ^ XOR
+// ~ NOT
+// << Left Shift
+// >> Right Shift
+// >>> right shift zero fill
+
+
+let proxy = () => {
+    alert('Test alert...')
+}
+
+var a = 10
+let b = 20
+
+{
+    let x = 20
+    var y = 40
+}
+
+
+
+// Function
+function test_func() {
+    console.log(a);
+    console.log(b);
+}
+
+
+console.log(y);
+console.log(x);
