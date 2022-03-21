@@ -99,35 +99,71 @@ let f1 = () => {
 
 // Remaining
 // Bitwise
+// 32 bit
 // & AND
+// 1    =   001
+// 2    =   010
+//          000
 // | OR
+// 1    =   001
+// 2    =   010
+//          011
+
 // ^ XOR
+// 1    =   001
+// 2    =   010
+//          011
+
 // ~ NOT
+// 1    =   001
+//          110
+
 // << Left Shift
+// 4    =   0000000000000000000000100
+// 3
+//          0000000000000000000100000
+
 // >> Right Shift
+// -4    =   11111111111111111111111011
+// 2
+//          11111111111111111111111110
+
 // >>> right shift zero fill
+// -5    =   1111111111111111111010
+// 2
+//          001111111111111111111010
 
 
-let proxy = () => {
-    alert('Test alert...')
-}
 
-var a = 10
-let b = 20
 
-{
-    let x = 20
-    var y = 40
-}
+// let proxy = () => {
+//     alert('Test alert...')
+// }
+
+// var a = 10
+// let b = 20
+
+// {
+//     let x = 20
+//     var y = 40
+// }
 
 
 
 // Function
-function test_func() {
-    console.log(a);
-    console.log(b);
+// function test_func() {
+//     console.log(a);
+//     console.log(b);
+// }
+
+
+// console.log(y);
+// console.log(x);
+
+let val = 9
+
+val > 7 ? console.log('Success..') : console.log('Failed..');
+
+let xFun = (x) => {
+    console.log(x);
 }
-
-
-console.log(y);
-console.log(x);
